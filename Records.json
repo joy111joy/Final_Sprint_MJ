@@ -1,0 +1,43 @@
+[
+    {
+        "Name": "John Doe",
+        "Address": "123 Main St",
+        "City": "St. John's",
+        "Prov": "NL",
+        "PostalCode": "A1A 1A1",
+        "BirthYear": 1980
+    },
+    {
+        "Name": "Micheal Jackson",
+        "Address": "123 Easy St",
+        "City": "Bay Roberts",
+        "Prov": "NL",
+        "PostalCode": "B2B 2B2",
+        "BirthYear": 1979
+    },
+    {
+        "Name": "Tony Stark",
+        "Address": "15 Holdens Rd",
+        "City": "Harbour Main",
+        "Prov": "NL",
+        "PostalCode": "C3C 3C3",
+        "BirthYear": 2000
+    },
+    {
+        "Name": "Luke Skywalker",
+        "Address": "24 Ballfield Rd",
+        "City": "Holyrood",
+        "Prov": "NL",
+        "PostalCode": "D4D 4D4",
+        "BirthYear": 1997
+    },
+    {
+        "Name": "Bruce Wayne",
+        "Address": "16 Station Rd",
+        "City": "Avondale",
+        "Prov": "NL",
+        "PostalCode": "E5E 5E5",
+        "BirthYear": 2004
+    }
+
+]
