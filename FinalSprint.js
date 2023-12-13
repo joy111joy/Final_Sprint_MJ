@@ -15,6 +15,8 @@ fetch("Records.json")
             console.log("New Email:")
             console.log(email(employee));
             console.log(" ");
+            Employeeinfo = `<p>Employee: ${employee.Name} <br>New Password: ${password(employee)}<br> New Email: ${email(employee)} \n \n</p>`;
+            document.body.innerHTML += Employeeinfo;
         });
     })
     .catch(error => {
@@ -51,4 +53,5 @@ function email(employee) {
     let email = `${splitName[0]}.${splitName[1]}_${CurYear}@JavaCo.com`;
     return email;
 };
+
 
