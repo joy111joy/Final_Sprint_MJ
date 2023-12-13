@@ -15,7 +15,7 @@ fetch("Records.json")
             console.log("New Email:")
             console.log(email(employee));
             console.log(" ");
-            Employeeinfo = `<p>Employee: ${employee.Name} <br>New Password: ${password(employee)}<br> New Email: ${email(employee)} \n \n</p>`;
+            Employeeinfo = `<p>Employee: ${employee.Name} <br>New Password: ${password(employee)}<br> New Email: ${email(employee)}</p>`;
             document.body.innerHTML += Employeeinfo;
         });
     })
